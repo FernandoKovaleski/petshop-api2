@@ -1,0 +1,6 @@
+spring.jpa.hibernate.ddl-auto: update
+
+spring.datasource:
+  url: ${OCEAN_URL}
+  username: ${OCEAN_USER}
+  password: ${OCEAN_PASS}
