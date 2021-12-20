@@ -12,4 +12,3 @@ public interface CreditoApiClient {
     SituacaoCliente obterSituacaoCredito(@PathVariable("cpf") String cpf);
 }
 
-//testando commit
