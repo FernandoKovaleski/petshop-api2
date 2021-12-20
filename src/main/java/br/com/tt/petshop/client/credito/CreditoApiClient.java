@@ -11,3 +11,5 @@ public interface CreditoApiClient {
     @GetMapping("/credito/{cpf}")
     SituacaoCliente obterSituacaoCredito(@PathVariable("cpf") String cpf);
 }
+
+//testando commit
